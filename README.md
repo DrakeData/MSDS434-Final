@@ -20,11 +20,7 @@ Coming Soon
 
 ### Week 2
 #### Video Recording
-**GCP Example**
-
 [![Week 2 Video - GCP](https://cdn.loom.com/sessions/thumbnails/71f4a9788a6846e7a0735e5ce318bc68-with-play.gif)](https://www.loom.com/share/71f4a9788a6846e7a0735e5ce318bc68)
-
-**AWS Example**
 
 [![Week 2 Video - AWS](https://cdn.loom.com/sessions/thumbnails/15a9f0868ca346989ddfb1f17ff90535-with-play.gif)](https://www.loom.com/share/15a9f0868ca346989ddfb1f17ff90535)
 
