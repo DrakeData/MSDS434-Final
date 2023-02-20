@@ -4,7 +4,10 @@ This repository contains code and documentation for MSDS 434 final project. Sect
 
 ## Section 1
 ### Week 1
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/2dfa50f27e6c4cc993c0aadd6618d7ef" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<a href="https://www.loom.com/share/2dfa50f27e6c4cc993c0aadd6618d7ef">
+    <p>MSDS 434 - Week 1 - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/2dfa50f27e6c4cc993c0aadd6618d7ef-with-play.gif">
+  </a>
 
 
 ### Week 2
