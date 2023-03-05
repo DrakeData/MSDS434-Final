@@ -1,0 +1,21 @@
+# ---- MSDS 434 - Week 8 Commands ----
+
+-- Query in BigQuery --
+
+SELECT invoice.month
+    , resource.name
+    , SUM(cost)
+      + SUM(IFNULL((SELECT SUM(c.amount)
+                    FROM UNNEST(credits) c), 0))
+      AS total,
+    (SUM(CAST(cost AS NUMERIC))
+      + SUM(IFNULL((SELECT SUM(CAST(c.amount AS NUMERIC))
+                    FROM UNNEST(credits) AS c), 0)))
+      AS total,
+    (SUM(CAST(cost AS NUMERIC))
+      + SUM(IFNULL((SELECT SUM(CAST(c.amount AS NUMERIC))
+                    FROM UNNEST(credits) AS c), 0)))
+      AS total_exact
+FROM `spotify-project-287802.all_billing_data.gcp_billing_export_resource_v1_017AB1_3D0E46_B18B05` 
+GROUP BY 1, 2
+ORDER BY 1, 2;

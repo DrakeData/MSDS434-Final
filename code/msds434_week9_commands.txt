@@ -1,0 +1,35 @@
+# ---- MSDS 434 - Week 9 Commands ----
+sudo apt update
+sudo apt install golang-go
+
+-- Monitoring Agent
+curl -sSO https://dl.google.com/cloudagents/add-monitoring-agent-repo.sh
+sudo bash add-monitoring-agent-repo.sh --also-install
+
+sudo apt-get update
+
+sudo apt-get -y install apache2-utils
+ab -n 1000 -c 100 http://10.128.0.2:8000/
+
+
+vi hello.go
+
+curl http://10.128.0.2:8000/
+
+--- Go Code For App ----
+package main
+
+import(
+"log"
+"net/http"
+)
+
+func helloGoHandler(w http.ResponseWriter, r *http.Request){
+w.Write([]byte("hello net/http!\n"))
+}
+
+
+func main(){
+http.HandleFunc("/", helloGoHandler)
+log.Fatal(http.ListenAndServe(":8000", nil))
+}

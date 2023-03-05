@@ -1,0 +1,50 @@
+# ---- MSDS 434 - Week 6 Commands ----
+
+--- Create Model ---
+
+CREATE or REPLACE MODEL `week5.sample_model`
+OPTIONS(model_type='AUTOML_REGRESSOR',
+        OPTIMIZATION_OBJECTIVE = 'minimize_rmse',
+        input_label_cols=['popularity'])
+AS
+SELECT * except (id, 
+            name, 
+            artists, 
+            id_artists, 
+            release_date)
+FROM
+ `msds434-nd-w5.week5.spotify_track_sample`
+ LIMIT 1000;
+
+
+ --- Make Prediction---
+ SELECT *
+ FROM 
+  ML.PREDICT(MODEL `week5.sample_model`,
+  (
+  SELECT *
+  EXCEPT (id, 
+          name, 
+          artists, 
+          id_artists, 
+          release_date) 
+FROM `msds434-nd-w5.week5.spotify_track_testset`
+LIMIT 10 ) )
+
+
+-------- UPDATE TEST MODEL --------
+
+CREATE or REPLACE MODEL `week5.sample_model`
+OPTIONS(model_type='AUTOML_REGRESSOR',
+        OPTIMIZATION_OBJECTIVE = 'minimize_rmse',
+        input_label_cols=['bop_or_flop'])
+AS
+SELECT * except (id, 
+            name, 
+            artists, 
+            id_artists, 
+            release_date)
+FROM
+ `msds434-nd-w5.week5.spotify_test`
+ LIMIT 1000;
+

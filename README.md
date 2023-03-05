@@ -90,40 +90,77 @@ Coming Soon
 #### Code Used
 - [Week 5 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week5_commands.txt)
 
-### Week 6
+
+### Week 6 - Managed ML Platforms
 #### Video Recordings
 [![Week 6 Video](https://cdn.loom.com/sessions/thumbnails/1f06e9292818475c82c867a853c54b7e-with-play.gif)](https://www.loom.com/share/1f06e9292818475c82c867a853c54b7e)
 
 #### Objective
+- Train a multi-class classification model on AutoML
 
-### My Learnings
+#### My Learnings
+- How to use AutoML within BiqQuery
+- AutomML does take time to run and might not provide the best model results
+
+#### Code USed
+- [Week 6 Commands]()
+- [Week 6 Python Code]()
 
 
-### Week 7
+### Week 7 - Operationalizing ML Models
 #### Video Recordings
 [![Week 7 Video](https://cdn.loom.com/sessions/thumbnails/1db48100eb124e35aca3ff70dac58095-with-play.gif)](https://www.loom.com/share/1db48100eb124e35aca3ff70dac58095)
 
 #### Objective
+- Create a production and development environment
+- Deploy your final project to both environments
 
-### My Learnings
+#### My Learnings
+- Different ways you can deploy, monitor, and maintain multiple enviornments
+- Built a Staging and Production projects enviornment within GCP.
+
+#### Code Used
+- [Week 7 Commands]()
+
+#### Additional Learning Resource
+- [Google Cloud Tech - Top 3 ways to run your containers on Google Cloud](https://www.youtube.com/watch?v=jh0fPT-AWwM)
 
 
-### Week 8
+### Week 8 - Total Cost of Ownership (TCO) Estimation for Engineering Projects
 #### Video Recordings
 [![Week 8 Video](https://cdn.loom.com/sessions/thumbnails/dbb2cdcd17d94dbba36a523ac753ccae-with-play.gif)](https://www.loom.com/share/dbb2cdcd17d94dbba36a523ac753ccae)
 
 #### Objective
+- Use the Google Cloud Platform Billing API
+- Create a cost forecast using BigQuery ML
 
-### My Learnings
+#### My Learnings
+- Connect data transfer to a GCP billing table you create for your project
+- Go to 'Billing Export' wihtin GCP and enable the different billing options you would like to export and conect ot BiqQuery table
+- It does take time to load billing data into table
+- Ran a simple query to take a look at my billing usage
 
+#### Code Used
+- [Week 8 Commands]()
 
-### Week 9
+### Week 9 - Monitoring
 #### Video Recordings
 [![Week 9 Video](https://cdn.loom.com/sessions/thumbnails/922521b42a574fcd9a4c6a27b3d98691-with-play.gif)](https://www.loom.com/share/922521b42a574fcd9a4c6a27b3d98691)
 
 #### Objective
+- Set up a monitoring dashboard within GCP
+- Perform a simple load test using ApacheBench or a similar tool
 
-### My Learnings
+#### My Learnings
+- Started up a Virtual Machine (VM) within GCP
+- Installed Go on VM
+- Created a simple Go program to create activity on VM
+- Built a monitoring within GCP
+- Used apache within the command line to run basic metric checks
+- How to create, edit and save a file using command line
+
+#### Code Used
+- [Week 9 Commands]()
 
 ### Week 10
 Coming Soon

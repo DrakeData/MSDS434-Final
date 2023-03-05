@@ -1,0 +1,21 @@
+# ---- MSDS 434 - Week 7 Commands ----
+
+# In GCP Cloud Shell
+-- Staging Environment --
+- gcloud project list
+- gcloud config configurations list
+- gcloud config configurations create stag
+- gcloud config configurations activate stag
+- gcloud init
+- gcloud config set compute/region us-central1
+
+-- Production Environment --
+- gcloud config set project msds434-prod
+- gcloud project list
+- gcloud config configurations list
+- gcloud config configurations create prod
+- gcloud config configurations activate prod
+- gcloud init
+
+
+
