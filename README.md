@@ -47,7 +47,7 @@ Coming Soon
 #### Objective
 - Create a “hello world” pipeline to Google Cloud that calls into a Python-based Google App Engine (GAE) project and returns “hello world” as a JavaScript Object Notation (JSON) response.
 
-### My Learnings
+#### My Learnings
 - How to set up APIs & Services on GCP
 - Enabeling Cloud Builder API
 - Connecting my builing account to the project
@@ -66,7 +66,7 @@ Coming Soon
 - Create an ingest to ETL pipeline using CSV files and Google BigQuery
 - Schedule a recurring cron job to batch update the data
 
-### My Learnings
+#### My Learnings
 - How to access Cloud Shell Editor in GCP and use the GUI to manage directories
 - Use Python to call an API and save the json output in a pandas data frame, then export the data frame to a CSV file in my GCP project
 - Use command line to grab a CSV file in my project directory, move it to a GCP Bucket, then load the data into BigQuery
@@ -74,14 +74,21 @@ Coming Soon
 #### Code Used
 - [Week 4 Commands]()
 
-### Week 5
+### Week 5 - Applied Data Engineering
 #### Video Recordings
 [![Week 5 Video](https://cdn.loom.com/sessions/thumbnails/b5ee846203ca4fe9bf3c84d951b46c33-with-play.gif)](https://www.loom.com/share/b5ee846203ca4fe9bf3c84d951b46c33)
 
 #### Objective
+- Return an aggregated result with a machine-learning (ML) prediction using Google BigQuery ML
+- Serve out results using Google App Engine
 
-### My Learnings
+#### My Learnings
+- How to load a dataset into BigQuery
+- Run a basic Machine Learning (ML) Regression Model within BiqQuery
+- View results of model and evaluate how it performed
 
+#### Code Used
+- [Week 5 Commands]()
 
 ### Week 6
 #### Video Recordings
