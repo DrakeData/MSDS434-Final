@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Folders
+code/week6_code/files/
+
 # C extensions
 *.so
 
