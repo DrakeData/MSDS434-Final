@@ -78,6 +78,8 @@ Coming Soon
 #### Video Recordings
 [![Week 5 Video](https://cdn.loom.com/sessions/thumbnails/b5ee846203ca4fe9bf3c84d951b46c33-with-play.gif)](https://www.loom.com/share/b5ee846203ca4fe9bf3c84d951b46c33)
 
+[Kaggle Data Set](https://www.kaggle.com/datasets/lehaknarnauli/spotify-datasets?select=tracks.csv)
+
 #### Objective
 - Return an aggregated result with a machine-learning (ML) prediction using Google BigQuery ML
 - Serve out results using Google App Engine
@@ -103,8 +105,8 @@ Coming Soon
 - AutomML does take time to run and might not provide the best model results
 
 #### Code USed
-- [Week 6 Commands]()
-- [Week 6 Python Code]()
+- [Week 6 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week6_commands.txt)
+- [Week 6 Python Code](https://github.com/DrakeData/MSDS434-Final/blob/main/code/week6_code/file_cleanup.ipynb)
 
 
 ### Week 7 - Operationalizing ML Models
@@ -120,7 +122,7 @@ Coming Soon
 - Built a Staging and Production projects enviornment within GCP.
 
 #### Code Used
-- [Week 7 Commands]()
+- [Week 7 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week7_commands.txt)
 
 #### Additional Learning Resource
 - [Google Cloud Tech - Top 3 ways to run your containers on Google Cloud](https://www.youtube.com/watch?v=jh0fPT-AWwM)
@@ -141,7 +143,7 @@ Coming Soon
 - Ran a simple query to take a look at my billing usage
 
 #### Code Used
-- [Week 8 Commands]()
+- [Week 8 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week8_commands.txt)
 
 ### Week 9 - Monitoring
 #### Video Recordings
@@ -160,7 +162,7 @@ Coming Soon
 - How to create, edit and save a file using command line
 
 #### Code Used
-- [Week 9 Commands]()
+- [Week 9 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week9_commands.txt)
 
 ### Week 10
 Coming Soon
