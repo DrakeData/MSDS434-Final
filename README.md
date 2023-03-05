@@ -38,7 +38,7 @@ Coming Soon
 - In GCP, you need to sudo install git as git is not installed automatically
 
 #### Code Used
-- [Week 2 Commands]()
+- [Week 2 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week2_commands.txt)
 
 ### Week 3 - Google Cloud Platform (GCP)
 #### Video Recordings
@@ -56,7 +56,7 @@ Coming Soon
 - Gcloud commands to verify the shutdown of the project
 
 #### Code Used
-- [Week 3 Commands]()
+- [Week 3 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week3_commands.txt)
 
 ### Week 4 - Cloud-Native Database Choice and Design
 #### Video Recordings
@@ -72,7 +72,7 @@ Coming Soon
 - Use command line to grab a CSV file in my project directory, move it to a GCP Bucket, then load the data into BigQuery
 
 #### Code Used
-- [Week 4 Commands]()
+- [Week 4 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week4_commands.txt)
 
 ### Week 5 - Applied Data Engineering
 #### Video Recordings
@@ -88,7 +88,7 @@ Coming Soon
 - View results of model and evaluate how it performed
 
 #### Code Used
-- [Week 5 Commands]()
+- [Week 5 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week5_commands.txt)
 
 ### Week 6
 #### Video Recordings
