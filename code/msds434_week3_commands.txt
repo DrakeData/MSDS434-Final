@@ -1,0 +1,14 @@
+# ---- MSDS 434 - Week 3 Commands ----
+
+# In cloud editor:
+- gcloud projects list
+- gcloud config set project msds434w3-nd
+- sudo git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+- cd python-docs-samples
+- cd appengine/standard_python3/hello_world/
+- gcloud app deploy app.yaml
+- gcloud projects describe msds434w3-nd
+
+# Make sure to enable:
+- API Engine Admin for the project
+

@@ -1,12 +1,12 @@
-# MSDS434 - Final Project
+# MSDS434 - Final Project (Part I)
 
-This repository contains code and documentation for MSDS 434 final project. Section one of the project covers week 1-10 learning objective documentations and videos that corraspond with them. Section two contains the final end-to-end project for MSDS 434.
+This repository contains code and documentation for MSDS 434 final project (Part I). This repository covers week 1-10 learning objective documentations, code used, and videos that corraspond with them.
 
 ## Table of Contents
 Coming Soon
 
-## Section 1
-### Week 1
+## Class Contents
+### Week 1 - Introduction to GCP
 #### Video Recording
 [![Week 1 Video](https://cdn.loom.com/sessions/thumbnails/2dfa50f27e6c4cc993c0aadd6618d7ef-with-play.gif)](https://www.loom.com/share/2dfa50f27e6c4cc993c0aadd6618d7ef)
 
@@ -18,7 +18,7 @@ Coming Soon
 - How to start up and stop projects within GCP and AWS
 - How to access the consul within GCP and AWS
 
-### Week 2
+### Week 2 - Github and Continuous Integration
 #### Video Recording
 ##### GCP Example
 [![Week 2 Video - GCP](https://cdn.loom.com/sessions/thumbnails/71f4a9788a6846e7a0735e5ce318bc68-with-play.gif)](https://www.loom.com/share/71f4a9788a6846e7a0735e5ce318bc68)
@@ -33,24 +33,46 @@ Coming Soon
 - Edit code in GCP and AWS projects and push the changes back to the GitHub repository
 
 #### My Learnings
+- How to clone a GitHub repository in both GCP and AWS
+- How to edit code in GCP and AWS, then push it to my GitHub repository
+- In GCP, you need to sudo install git as git is not installed automatically
 
-### Week 3
+#### Code Used
+- [Week 2 Commands]()
+
+### Week 3 - Google Cloud Platform (GCP)
 #### Video Recordings
 [![Week 3 Video](https://cdn.loom.com/sessions/thumbnails/b06813ff52294b14aa21944e70991002-with-play.gif)](https://www.loom.com/share/b06813ff52294b14aa21944e70991002)
 
 #### Objective
+- Create a “hello world” pipeline to Google Cloud that calls into a Python-based Google App Engine (GAE) project and returns “hello world” as a JavaScript Object Notation (JSON) response.
 
 ### My Learnings
+- How to set up APIs & Services on GCP
+- Enabeling Cloud Builder API
+- Connecting my builing account to the project
+- Activating a yaml file to deploy app
+- How to shutdown project after I am done using it
+- Gcloud commands to verify the shutdown of the project
 
+#### Code Used
+- [Week 3 Commands]()
 
-### Week 4
+### Week 4 - Cloud-Native Database Choice and Design
 #### Video Recordings
 [![Week 4 Video](https://cdn.loom.com/sessions/thumbnails/8cf1f8d97c5946a88a5a058ea6aecd8a-with-play.gif)](https://www.loom.com/share/8cf1f8d97c5946a88a5a058ea6aecd8a)
 
 #### Objective
+- Create an ingest to ETL pipeline using CSV files and Google BigQuery
+- Schedule a recurring cron job to batch update the data
 
 ### My Learnings
+- How to access Cloud Shell Editor in GCP and use the GUI to manage directories
+- Use Python to call an API and save the json output in a pandas data frame, then export the data frame to a CSV file in my GCP project
+- Use command line to grab a CSV file in my project directory, move it to a GCP Bucket, then load the data into BigQuery
 
+#### Code Used
+- [Week 4 Commands]()
 
 ### Week 5
 #### Video Recordings

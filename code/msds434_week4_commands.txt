@@ -1,0 +1,19 @@
+# ---- MSDS 434 - Week 4 Commands ----
+
+# Notes:
+- Create GCP Project
+- Connect billing account
+- Open cloud shell
+
+# Cloud Commands:
+- gcloud projects list
+- gcloud config set project [PROJECT_NAME]
+- git clone https://github.com/GoogleCloudPlatform/data-science-on-gcp
+- cd msds434_week4
+- python ChiCrime_main.py
+
+# Load data into bucket:
+- cd files
+- gsutil -m cp *.csv gs://msds434-w4-bucket
+- bq mk msds434w4
+- bq load --autodetect --source_format=CSV msds434w4.chicago_crime gs://msds434-w4-bucket/20230127_ChiCrimeData.csv

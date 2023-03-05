@@ -1,0 +1,48 @@
+# ---- MSDS 434 - Week 5 Commands ----
+
+# In BigQuery
+
+-- Check that data is in table
+SELECT * 
+FROM `msds434-nd-w5.week5.spotify_track_sample` 
+LIMIT 100;
+
+
+-- Create Regression Model
+CREATE MODEL `week5.sample_model3`
+OPTIONS(model_type='logistic_reg',
+       input_label_cols=['IsPop'])
+AS
+SELECT
+ IF(popularity > 70, "Bop", "Flop") AS IsPop,
+ IFNULL(duration_ms, 0) AS duration_ms,
+ IFNULL(energy, 0) AS energy,
+ IFNULL(danceability, 0) AS danceability,
+ IFNULL(loudness, 0) AS loudness,
+ IFNULL(speechiness, 0) AS speechiness,
+ IFNULL(acousticness, 0) AS acousticness,
+ IFNULL(instrumentalness, 0) AS instrumentalness,
+
+FROM
+ `msds434-nd-w5.week5.spotify_track_sample`;
+
+
+-- Test Model
+SELECT *
+FROM ML.EVALUATE(MODEL `week5.sample_model3`,
+(
+  SELECT
+ IF(popularity > 70, "Bop", "Flop") AS IsPop,
+ IFNULL(duration_ms, 0) AS duration_ms,
+ IFNULL(energy, 0) AS energy,
+ IFNULL(danceability, 0) AS danceability,
+ IFNULL(loudness, 0) AS loudness,
+ IFNULL(speechiness, 0) AS speechiness,
+ IFNULL(acousticness, 0) AS acousticness,
+ IFNULL(instrumentalness, 0) AS instrumentalness,
+
+FROM
+ `msds434-nd-w5.week5.spotify_track_testset`
+
+  )
+);

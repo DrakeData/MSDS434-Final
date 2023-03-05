@@ -1,0 +1,18 @@
+# ---- MSDS 434 - Week 2 Commands ----
+
+## Run in both AWS AND GCP cloud consul
+git clone https://github.com/DrakeData/MSDS434_Example.git
+cd MSDS434_Example
+git config --global user.email "nicholasdrake6@gmail.com"
+git config --global user.name "drakedata"
+git remote remove origin
+git remote add origin https://DrakeData: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@github.com/DrakeData/MSDS434_Example.git
+echo "hello, this is a test file" > test_file3.txt
+git status
+git add .
+git commit -m "this is my test push of a new file"
+git push -u origin main
+
+
+## NOTE: GCP Only
+sudo apt-get install git
