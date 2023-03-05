@@ -3,7 +3,17 @@
 This repository contains code and documentation for MSDS 434 final project (Part I). This repository covers week 1-10 learning objective documentations, code used, and videos that corraspond with them.
 
 ## Table of Contents
-Coming Soon
+- [Class Contents](#class-contents)
+  * [Week 1 - Introduction to GCP](#week-1---introduction-to-gcp)
+  * [Week 2 - Github and Continuous Integration](#week-2---github-and-continuous-integration)
+  * [Week 3 - Google Cloud Platform (GCP)](#week-3---google-cloud-platform--gcp-)
+  * [Week 4 - Cloud-Native Database Choice and Design](#week-4---cloud-native-database-choice-and-design)
+  * [Week 5 - Applied Data Engineering](#week-5---applied-data-engineering)
+  * [Week 6 - Managed ML Platforms](#week-6---managed-ml-platforms)
+  * [Week 7 - Operationalizing ML Models](#week-7---operationalizing-ml-models)
+  * [Week 8 - Total Cost of Ownership (TCO) Estimation for Engineering Projects](#week-8---total-cost-of-ownership-tco-estimation-for-engineering-projects)
+  * [Week 9 - Monitoring](#week-9---monitoring)
+  * [Week 10 - Coming Soon](#week-10)
 
 ## Class Contents
 ### Week 1 - Introduction to GCP
