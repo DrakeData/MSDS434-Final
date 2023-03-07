@@ -14,6 +14,8 @@ This repository contains code and documentation for MSDS 434 final project (Part
   * [Week 8 - Total Cost of Ownership (TCO) Estimation for Engineering Projects](#week-8---total-cost-of-ownership-tco-estimation-for-engineering-projects)
   * [Week 9 - Monitoring](#week-9---monitoring)
   * [Week 10 - Coming Soon](#week-10)
+- [Final Thoughts](#final-thoughts)
+- [Repository Information](#repository-information)
 
 ## Class Contents
 ### Week 1 - Introduction to GCP
@@ -176,3 +178,18 @@ This repository contains code and documentation for MSDS 434 final project (Part
 
 ### Week 10
 Coming Soon
+
+## Final Thoughts
+MSDS 434 Analytics Application Development has been a very beneficial course during my Northwestern journey and I will be looking back on my work in the future as cloud computing becomes more of a necessary skill to progress in the work force. Professor Ostrowski did a great job walking through each week’s deliverables and was responsive to all my questions throughout the course, which added to the success in my learning. Personally, I wish I took this class before taking MSDS 436 Analytics Systems Engineering as they both where very similar in the course material except Professor Ostrowski taught GCP and a little AWS, where MSDS 436 was more self-taught and heavily focused on AWS. Either way, I am now a much more rounded individual having experience in two cloud environments and have the basic understanding on how to utilize cloud computing resources.
+
+My big takeaways from this class include the following:
+- Learning how to stop billing completely by disabling your billing account to your project.
+- The ability to use machine learning within BigQuery is not only powerful but also lowers the barrier of entry as you only need to know how to use SQL to run models.
+- GitHub Actions is a cool resource to use for continuous integration and continuous delivery.
+- There isn’t a set way you should or have to setup your cloud environments. There are several different tooling options that will help you build what you are looking to deploy and it’s good to know the pros and cons of each one to determine what fits your needs the best.
+- Setting up building alerts and monitoring is a great way to make sure you stay within your budget and minimize the fear of running up a large bill on your credit card.
+
+## Repository Information
+Created by: Nicholas Drake
+
+Create date: 01/03/2023
