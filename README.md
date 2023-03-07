@@ -176,7 +176,7 @@ This repository contains code and documentation for MSDS 434 final project (Part
 #### Code Used
 - [Week 9 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week9_commands.txt)
 
-### Week 10
+### Week 10 - MVP
 Coming Soon
 
 ## Final Thoughts
