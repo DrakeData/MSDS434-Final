@@ -13,7 +13,7 @@ This repository contains code and documentation for MSDS 434 final project (Part
   * [Week 7 - Operationalizing ML Models](#week-7---operationalizing-ml-models)
   * [Week 8 - Total Cost of Ownership (TCO) Estimation for Engineering Projects](#week-8---total-cost-of-ownership-tco-estimation-for-engineering-projects)
   * [Week 9 - Monitoring](#week-9---monitoring)
-  * [Week 10 - Coming Soon](#week-10)
+  * [Week 10 - MVP](#week-10---mvp)
 - [Final Thoughts](#final-thoughts)
 - [Repository Information](#repository-information)
 
@@ -177,7 +177,9 @@ This repository contains code and documentation for MSDS 434 final project (Part
 - [Week 9 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week9_commands.txt)
 
 ### Week 10 - MVP
-Coming Soon
+[![final_project_video](https://cdn.loom.com/sessions/thumbnails/3cb6e0d582fb4f98946dca54bd4f6cc1-with-play.gif)](https://www.loom.com/share/3cb6e0d582fb4f98946dca54bd4f6cc1)
+
+See [GitHub Repository](https://github.com/DrakeData/MSDS434-Final_P2) for full coding documentation.
 
 ## Final Thoughts
 MSDS 434 Analytics Application Development has been a very beneficial course during my Northwestern journey and I will be looking back on my work in the future as cloud computing becomes more of a necessary skill to progress in the work force. Professor Ostrowski did a great job walking through each week’s deliverables and was responsive to all my questions throughout the course, which added to the success in my learning. Personally, I wish I took this class before taking MSDS 436 Analytics Systems Engineering as they both where very similar in the course material except Professor Ostrowski taught GCP and a little AWS, where MSDS 436 was more self-taught and heavily focused on AWS. Either way, I am now a much more rounded individual having experience in two cloud environments and have the basic understanding on how to utilize cloud computing resources.
