@@ -1,6 +1,6 @@
 # MSDS434 - Final Project (Part I)
 
-This repository contains code and documentation for MSDS 434 Analytics Application Development final project (Part I). This repository covers week 1-10 learning objective documentations, code used, and videos that correspond with them.
+This repository contains code and documentation for MSDS 434 Analytics Application Development final project (Part I). It covers week 1-10 learning objectives, documentation, code used, and videos that correspond with them.
 
 ## Table of Contents
 - [Class Contents](#class-contents)
@@ -24,7 +24,7 @@ This repository contains code and documentation for MSDS 434 Analytics Applicati
 [![Week 1 Video](https://cdn.loom.com/sessions/thumbnails/2dfa50f27e6c4cc993c0aadd6618d7ef-with-play.gif)](https://www.loom.com/share/2dfa50f27e6c4cc993c0aadd6618d7ef)
 
 #### Objective
-- Demo instantiation of an instance on both the Google Cloud Platform as well as on Amazon AWS.
+- Demo instantiation of an instance on both the Google Cloud Platform (GCP), as well as on Amazon AWS.
 - Describe one application of AI that you would be interested in pursuing in the context of the GCP leveraging the technologies identified in this course.
 
 #### My Learnings
@@ -48,7 +48,7 @@ This repository contains code and documentation for MSDS 434 Analytics Applicati
 #### My Learnings
 - How to clone a GitHub repository in both GCP and AWS
 - How to edit code in GCP and AWS, then push it to my GitHub repository
-- In GCP, you need to sudo install git as git is not installed automatically
+- In GCP, you need to 'sudo install git' as git is not installed automatically
 
 #### Code Used
 - [Week 2 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week2_commands.txt)
@@ -62,11 +62,11 @@ This repository contains code and documentation for MSDS 434 Analytics Applicati
 
 #### My Learnings
 - How to set up APIs & Services on GCP
-- Enabling  Cloud Builder API
+- Enabling Cloud Builder API
 - Connecting my billing account to the project
 - Activating a yaml file to deploy app
 - How to shutdown project after I am done using it
-- Gcloud commands to verify the shutdown of the project
+- Use gcloud commands to verify the shutdown of the project
 
 #### Code Used
 - [Week 3 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week3_commands.txt)
@@ -132,7 +132,7 @@ This repository contains code and documentation for MSDS 434 Analytics Applicati
 
 #### My Learnings
 - Different ways you can deploy, monitor, and maintain multiple environments
-- Built a Staging and Production projects environment within GCP.
+- Built a Staging and Production projects environment within GCP
 
 #### Code Used
 - [Week 7 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week7_commands.txt)
@@ -183,16 +183,16 @@ This repository contains code and documentation for MSDS 434 Analytics Applicati
 See [GitHub Repository](https://github.com/DrakeData/MSDS434-Final_P2) for full coding documentation.
 
 ## Learnings from my classmates
-From my classmates, I learned several valuable skills pertaining to cloud architecture and how I can improve my own projects. One of the bigger topics I learned is the importance of containerizing your environment(s) and how to use Docker to do this. Docker provides a standardized platform for developers and system administrators to package, deploy, and run applications. For the final project, I decided to try and build a docker image to containerize my application and I was successful. My classmates also did a great job explaining Software as a Service (SAAS) and how continuous integration (CI) systems are an essential part of the SAAS development and deployment process, as they allow developers to automate the testing and integration of new code changes into the software application. Lastly, I learned that traditional SQL servers can update data tables more quickly compared to BigQuery, as BigQuery has a limit on how many operations per table are allowed.
+I acquired numerous valuable skills related to cloud architecture from my peers, which enabled me to enhance my own projects. Among the key concepts I learned, containerizing environments using Docker emerged as one of the most significant. Docker provides a uniform platform for developers and system administrators to bundle, deploy, and operate applications. For the final project, I attempted to construct a Docker image to containerize my application, and my efforts proved successful. Additionally, my colleagues adeptly illustrated the importance of Software as a Service (SAAS) and the critical role of continuous integration (CI) systems in SAAS development and deployment, enabling developers to automate the testing and integration of new code changes into software applications. Finally, I discovered that traditional SQL servers update data tables more rapidly than BigQuery, as BigQuery has a restriction on the number of operations allowed per table.
 
 ## Final Thoughts
-MSDS 434 Analytics Application Development has been a very beneficial course during my Northwestern journey and I will be looking back on my work in the future as cloud computing becomes more of a necessary skill to progress in the work force. Professor Ostrowski did a great job walking through each week’s deliverables and was responsive to all my questions throughout the course, which added to the success in my learning. Personally, I wish I took this class before taking MSDS 436 Analytics Systems Engineering as they both where very similar in the course material except Professor Ostrowski taught GCP and a little AWS, where MSDS 436 was more self-taught and heavily focused on AWS. Either way, I am now a much more rounded individual having experience in two cloud environments and have the basic understanding on how to utilize cloud computing resources.
+MSDS 434 Analytics Application Development proved to be an incredibly valuable course during my time at Northwestern University. As cloud computing continues to be an increasingly essential skill for career advancement, I anticipate looking back on my work in this course with fondness. Professor Ostrowski's guidance throughout the course was excellent, providing clear explanations for each week's assignments and remaining responsive to all my questions. In hindsight, I wish I had taken this course before MSDS 436 Analytics Systems Engineering, as they share similar content, but Professor Ostrowski focused on GCP and a little AWS, whereas MSDS 436 was more self-directed and heavily emphasized AWS. Nevertheless, I feel much more well-rounded now, having gained experience in two distinct cloud environments and developing a fundamental understanding of how to leverage cloud computing resources.
 
 My big takeaways from this class include the following:
-- Learning how to stop billing completely by disabling your billing account to your project.
+- Learned how to stop billing completely by disabling your billing account to your project.
 - The ability to use machine learning within BigQuery is not only powerful but also lowers the barrier of entry as you only need to know how to use SQL to run models.
 - GitHub Actions is a cool resource to use for continuous integration and continuous delivery.
-- There isn’t a set way you should or have to setup your cloud environments. There are several different tooling options that will help you build what you are looking to deploy and it’s good to know the pros and cons of each one to determine what fits your needs the best.
+- There isn’t a set way you should or have to setup your cloud environments. There are several different tooling options that will help you build what you are looking to deploy and it’s good to know the pros and cons of each one to determine what fits your project's needs the best.
 - Setting up building alerts and monitoring is a great way to make sure you stay within your budget and minimize the fear of running up a large bill on your credit card.
 
 ## Repository Information
