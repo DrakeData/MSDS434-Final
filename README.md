@@ -1,6 +1,6 @@
 # MSDS434 - Final Project (Part I)
 
-This repository contains code and documentation for MSDS 434 Analytics Application Development final project (Part I). This repository covers week 1-10 learning objective documentations, code used, and videos that corraspond with them.
+This repository contains code and documentation for MSDS 434 Analytics Application Development final project (Part I). This repository covers week 1-10 learning objective documentations, code used, and videos that correspond with them.
 
 ## Table of Contents
 - [Class Contents](#class-contents)
