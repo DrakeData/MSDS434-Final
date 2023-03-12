@@ -1,6 +1,6 @@
 # MSDS434 - Final Project (Part I)
 
-This repository contains code and documentation for MSDS 434 final project (Part I). This repository covers week 1-10 learning objective documentations, code used, and videos that corraspond with them.
+This repository contains code and documentation for MSDS 434 Analytics Application Development final project (Part I). This repository covers week 1-10 learning objective documentations, code used, and videos that corraspond with them.
 
 ## Table of Contents
 - [Class Contents](#class-contents)
@@ -11,9 +11,10 @@ This repository contains code and documentation for MSDS 434 final project (Part
   * [Week 5 - Applied Data Engineering](#week-5---applied-data-engineering)
   * [Week 6 - Managed ML Platforms](#week-6---managed-ml-platforms)
   * [Week 7 - Operationalizing ML Models](#week-7---operationalizing-ml-models)
-  * [Week 8 - Total Cost of Ownership (TCO) Estimation for Engineering Projects](#week-8---total-cost-of-ownership-tco-estimation-for-engineering-projects)
+  * [Week 8 - Total Cost of Ownership (TCO) Estimation for Engineering Projects](#week-8---total-cost-of-ownership--tco--estimation-for-engineering-projects)
   * [Week 9 - Monitoring](#week-9---monitoring)
   * [Week 10 - MVP](#week-10---mvp)
+- [Learnings from my classmates](#learnings-from-my-classmates)
 - [Final Thoughts](#final-thoughts)
 - [Repository Information](#repository-information)
 
@@ -23,7 +24,7 @@ This repository contains code and documentation for MSDS 434 final project (Part
 [![Week 1 Video](https://cdn.loom.com/sessions/thumbnails/2dfa50f27e6c4cc993c0aadd6618d7ef-with-play.gif)](https://www.loom.com/share/2dfa50f27e6c4cc993c0aadd6618d7ef)
 
 #### Objective
-- Demo instantation of an instance on both the Google Cloud Platform as well as on Amazon AWS.
+- Demo instantiation of an instance on both the Google Cloud Platform as well as on Amazon AWS.
 - Describe one application of AI that you would be interested in pursuing in the context of the GCP leveraging the technologies identified in this course.
 
 #### My Learnings
@@ -61,8 +62,8 @@ This repository contains code and documentation for MSDS 434 final project (Part
 
 #### My Learnings
 - How to set up APIs & Services on GCP
-- Enabeling Cloud Builder API
-- Connecting my builing account to the project
+- Enabling  Cloud Builder API
+- Connecting my billing account to the project
 - Activating a yaml file to deploy app
 - How to shutdown project after I am done using it
 - Gcloud commands to verify the shutdown of the project
@@ -98,7 +99,7 @@ This repository contains code and documentation for MSDS 434 final project (Part
 
 #### My Learnings
 - How to load a dataset into BigQuery
-- Run a basic Machine Learning (ML) Regression Model within BiqQuery
+- Run a basic Machine Learning (ML) Regression Model within BigQuery
 - View results of model and evaluate how it performed
 
 #### Code Used
@@ -113,10 +114,10 @@ This repository contains code and documentation for MSDS 434 final project (Part
 - Train a multi-class classification model on AutoML
 
 #### My Learnings
-- How to use AutoML within BiqQuery
+- How to use AutoML within BigQuery
 - AutomML does take time to run and might not provide the best model results
 
-#### Code USed
+#### Code Used
 - [Week 6 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week6_commands.txt)
 - [Week 6 Python Code](https://github.com/DrakeData/MSDS434-Final/blob/main/code/week6_code/file_cleanup.ipynb)
 
@@ -130,8 +131,8 @@ This repository contains code and documentation for MSDS 434 final project (Part
 - Deploy your final project to both environments
 
 #### My Learnings
-- Different ways you can deploy, monitor, and maintain multiple enviornments
-- Built a Staging and Production projects enviornment within GCP.
+- Different ways you can deploy, monitor, and maintain multiple environments
+- Built a Staging and Production projects environment within GCP.
 
 #### Code Used
 - [Week 7 Commands](https://github.com/DrakeData/MSDS434-Final/blob/main/code/msds434_week7_commands.txt)
@@ -150,7 +151,7 @@ This repository contains code and documentation for MSDS 434 final project (Part
 
 #### My Learnings
 - Connect data transfer to a GCP billing table you create for your project
-- Go to 'Billing Export' wihtin GCP and enable the different billing options you would like to export and conect ot BiqQuery table
+- Go to 'Billing Export' within GCP and enable the different billing options you would like to export and connect to BigQuery table
 - It does take time to load billing data into table
 - Ran a simple query to take a look at my billing usage
 
@@ -181,6 +182,9 @@ This repository contains code and documentation for MSDS 434 final project (Part
 
 See [GitHub Repository](https://github.com/DrakeData/MSDS434-Final_P2) for full coding documentation.
 
+## Learnings from my classmates
+From my classmates, I learned several valuable skills pertaining to cloud architecture and how I can improve my own projects. One of the bigger topics I learned is the importance of containerizing your environment(s) and how to use Docker to do this. Docker provides a standardized platform for developers and system administrators to package, deploy, and run applications. For the final project, I decided to try and build a docker image to containerize my application and I was successful. My classmates also did a great job explaining Software as a Service (SAAS) and how continuous integration (CI) systems are an essential part of the SAAS development and deployment process, as they allow developers to automate the testing and integration of new code changes into the software application. Lastly, I learned that traditional SQL servers can update data tables more quickly compared to BigQuery, as BigQuery has a limit on how many operations per table are allowed.
+
 ## Final Thoughts
 MSDS 434 Analytics Application Development has been a very beneficial course during my Northwestern journey and I will be looking back on my work in the future as cloud computing becomes more of a necessary skill to progress in the work force. Professor Ostrowski did a great job walking through each week’s deliverables and was responsive to all my questions throughout the course, which added to the success in my learning. Personally, I wish I took this class before taking MSDS 436 Analytics Systems Engineering as they both where very similar in the course material except Professor Ostrowski taught GCP and a little AWS, where MSDS 436 was more self-taught and heavily focused on AWS. Either way, I am now a much more rounded individual having experience in two cloud environments and have the basic understanding on how to utilize cloud computing resources.
 
@@ -192,6 +196,6 @@ My big takeaways from this class include the following:
 - Setting up building alerts and monitoring is a great way to make sure you stay within your budget and minimize the fear of running up a large bill on your credit card.
 
 ## Repository Information
-Created by: Nicholas Drake
+Created by: [Nicholas Drake](https://github.com/DrakeData)
 
 Create date: 01/03/2023
